@@ -12,6 +12,22 @@ all books are in the same state across all components.
 
 Books in search page has the same state of that in the main page.
 
+### Routes in application
+
+- / (the main page route)
+- /search (search page route)
+
+### components
+
+- App
+- Shelfs (the main page)
+- Search
+- CurrentlyReading
+- WantToRead
+- Read
+- Book
+- PageNotFound (in case user typed anything rather than the main routes)
+
 ## To install and start the app
 
 ### Download the project from Github
