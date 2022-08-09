@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Shelfs from "./Shelfs";
+import Shelf from "./Shelf";
 import Search from "./Search";
 import PageNotFoundElement from "./PageNotFoundElement";
 import * as BooksAPI from '../utils/BooksAPI'
@@ -38,7 +38,7 @@ function App() {
 ///
   return (
     <Routes>
-      <Route exact path="/" element={<Shelfs books={books} updateFunc={changeShelf}/>}/>
+      <Route exact path="/" element={<Shelf books={books} updateFunc={changeShelf}/>}/>
       <Route path="/search" element={<Search books={books} updateFunc={changeShelf}/>}/>
       <Route path="/*" element={<PageNotFoundElement />}/>
     </Routes>

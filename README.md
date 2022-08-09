@@ -22,9 +22,6 @@ Books in search page has the same state of that in the main page.
 - App
 - Shelfs (the main page)
 - Search
-- CurrentlyReading
-- WantToRead
-- Read
 - Book
 - PageNotFound (in case user typed anything rather than the main routes)
 
